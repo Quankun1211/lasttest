@@ -41,12 +41,13 @@ html {
 
 .dashboard {
   padding: 16px 16px 14px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255,255,255,0.8);
   position: fixed;
   top: 0;
   width: 100%;
   max-width: 480px;
   border-bottom: 1px solid #ebebeb;
+  border-radius: 20px;
 }
 
 /* HEADER */
@@ -90,7 +91,7 @@ header h2 {
 }
 
 .control .btn {
-  color: rgb(232, 34, 34);
+  color: rgb(255, 0, 217);
   padding: 18px;
   font-size: 18px;
 }
@@ -109,12 +110,14 @@ header h2 {
   align-items: center;
   justify-content: center;
   background-color: var(--primary-color);
+  
 }
 
 .progress {
   width: 100%;
   -webkit-appearance: none;
   height: 6px;
+  border-radius: 10px;
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
@@ -123,11 +126,13 @@ header h2 {
 }
 
 .progress::-webkit-slider-thumb {
+  
   -webkit-appearance: none;
   appearance: none;
   width: 12px;
   height: 6px;
-  background-color: var(--primary-color);
+  border-radius: 50%;
+  background: rgb(255, 0, 217);
   cursor: pointer;
 }
 
@@ -143,7 +148,7 @@ header h2 {
   margin-bottom: 12px;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 8px 16px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
